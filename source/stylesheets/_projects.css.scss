@@ -1,0 +1,49 @@
+.project-nav {
+  padding-bottom: 15px;
+  h3 {
+    margin: 0;
+    display: inline;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+    margin-right: 30px;
+  }
+  a {
+    color:  black;
+    &:hover {
+      color: #E4A061;
+    }
+  }
+}
+
+.projects {
+  background-color: #ACEBEB;
+  h1 {
+    margin: 0;
+    padding-top: 20px;
+  }
+  p {
+    margin: 0;
+    padding: 10px 0 5px 0;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+  h4 {
+    margin: 0;
+  }
+  .inner-nav {
+    border-bottom: 1px dashed #616161;
+  }
+  i {
+    font-size: 25pt;
+  }
+  .inner-container {
+    padding-bottom: 20px;
+  }
+}

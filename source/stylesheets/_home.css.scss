@@ -1,0 +1,41 @@
+.brand {
+  padding-top: 30px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inner-home {
+  padding-top: 40px;
+}
+
+.short-bio {
+  vertical-align: top;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16pt;
+}
+
+.internet-places {
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 14pt;
+  h2 {
+    text-align: center;
+  }
+}
+
+.site-places {
+  text-align: center;
+  a {
+    color: #CA782C; 
+    text-decoration: none;
+    &:hover {
+      color: #E4A061;
+    }
+  }
+}

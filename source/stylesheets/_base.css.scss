@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #ACEBEB;  
+  margin-bottom: 20px;
+}
+
+.inner-nav {
+  border-bottom: 1px dashed #616161;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+.inner-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/*font things*/
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+}
+
+.centered-header {
+  text-align: center;
+}
+
+.orange-links {
+  a {
+    color: #CA782C;
+    &:visited {
+      color: #CA782C;
+    }
+    &:hover {
+      color: #E4A061;
+    }
+    i {
+      text-decoration: none;
+      margin: 2px;
+    }
+  }
+}
+
+.black-links {
+  a {
+    color: black;
+    &:visited {
+      color: black;
+    }
+    &:hover {
+      color: grey;
+    }
+    i {
+      text-decoration: none;
+      margin: 2px;
+    }
+  }
+}
+
+/*decoration things*/
+
+i {
+  font-size: 2em;
+  padding: 3px;
+}
+
+.icons-box {
+  width: 110px;
+  height: 60px;
+  display: inline-block;
+}
+
+.icons-box i {
+  padding: 10px;
+}
+
+.orange-icon i {
+  color: #FF8F00;
+}
+
+hr {
+  height: 1px;
+  background-color: #616161;
+  margin: 30px auto;
+  border: 0;
+}
+
+hr.narrow-hr {
+  width: 70%;
+}
+
+.big-top-margin {
+  margin-top: 60px;
+}
+
+/*colors*/
+
+.off-white {
+  background-color: #FFFEFC;
+}
+
+.teal {
+  background-color: #ACEBEB;
+}
+
+.orange {
+  background-color: #FF8F00;
+}
+
+.dark-grey {
+  background-color: #616161;
+}
+
+.light-grey {
+  background-color: #D5D5D5;
+}
+
+.light-orange {
+  background-color: #FFBB64;
+}
