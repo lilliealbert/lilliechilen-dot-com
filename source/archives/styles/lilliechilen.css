@@ -1,0 +1,196 @@
+/*Structures*/
+div.box {
+	background-color:white;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+
+div.box_narrow {
+	width:750px;
+	padding: 10px 20px;
+}
+
+div.box_wide {
+	width:900px;
+	padding: 10px 20px;
+}
+
+div.box_medium {
+	width:825px;
+	padding: 10px 20px;
+}
+
+
+/*Likes page*/
+#div-1 {
+}
+
+#div-1a {
+	float:left;
+	width:375px;
+	padding-left: 30px;
+}
+
+#div-1b {
+	float:right;
+	width:375px;
+}
+
+#div-1c {
+	clear:both;
+}
+
+/*Nav Bar Bits*/
+.navbar {
+	width: 750px;
+	text-align: center;
+	margin: 0 auto;
+}	
+
+.nav-item {
+  font-family: 'Playfair Display', Georgia, Times, serif;
+  font-weight: 400;
+	font-size: 26px;
+	display:inline-block;
+	margin: 20px 15px 0px 16px;
+}
+
+.nav-item a,
+.nav-item a:visited {
+	text-decoration: none;
+	color: rgb(82, 82, 82);
+}
+
+.nav-item a:hover {
+	color: rgba(82, 82, 82, 0.5);
+}
+
+/*Text Styles*/
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14	px;
+    line-height: 24px;
+}
+
+p {
+	margin: 15px;
+}
+
+.blurb {
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+header h1 {
+	margin: 5px auto;
+	margin-top: 40px;
+	text-align:center;
+	font-size:60pt;
+	line-height: 60pt;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+}
+
+header h1 a,
+header h1 a:visited {
+	text-decoration: none;
+	color: rgb(238, 84, 36);
+}
+
+header h1 a:hover {
+	color: rgba(238, 99, 56, 0.7);
+}
+
+h3 {
+	font-size: 18pt;
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+	margin: 0;
+	margin-top: 20px;
+}
+
+h4 {
+	font-size: 18px;
+	margin: 10px 0;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.footer {
+	text-align:center;
+	font-size: 14px;
+	color:#544D50;
+	font-family: 'Playfair Display', serif;
+	font-style:italic;
+	margin: 0;
+}
+
+.post-script {
+	font-size: 12px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  margin: 10px;
+}
+
+.post-script a {
+	color:#544D50;
+}
+
+.bio-header {
+	font-style: italic;
+}
+
+.resume-header {
+	font-size: 24pt;
+	font-style: italic;
+}
+
+.question {
+  font-weight: 700;
+	font-size: 14pt;
+}
+
+/*Image Stuff*/
+
+body {
+	background-image:url('../images/bright_squares.png')
+}
+
+img {
+	height: 200px;
+
+}
+
+.headshot {
+	float: right;
+	margin-top: 35px;
+	margin-right: 25px;
+}
+
+.headshot img:hover {
+	-webkit-transform: rotate(7deg);
+	transform: rotate(7deg);
+}
+
+/*resume trickery*/
+.fun {
+}
+
+.fun p {
+	margin: 15px 0;
+}
+
+.serious {
+}
+
+.resume-buttons {
+  text-align: center;
+}
+
+.whichresume {
+  text-align: center;
+  font-size: 16pt;
+  margin-top: 10px;
+}
