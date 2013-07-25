@@ -1,0 +1,137 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Bill James: Is the lead safe?</title>
+<link href="bootstrap.css" rel="stylesheet" type="text/css"></link>
+	<link href="billjames.css" rel="stylesheet" type="text/css"></link>	
+
+<script language="JavaScript">
+
+function is_int(value){ 
+  if((parseFloat(value) == parseInt(value)) && !isNaN(value)){
+      return true;
+  } else { 
+      return false;
+  } 
+}
+
+function results () {	
+	var possession_yes = document.getElementById("possession_yes").checked;
+	var possession_no = document.getElementById("possession_no").checked;
+	var spread = document.getElementById("spread").value;
+	var time_remaining_minutes = document.getElementById("time_remaining_minutes").value;
+	var time_remaining_seconds = document.getElementById("time_remaining_seconds").value;
+	var possession
+	var time_remaining
+	var percent_safe
+	var result = document.getElementById('result');
+	
+	if(time_remaining_minutes=="")
+	{
+		time_remaining_minutes = 0
+	}
+	
+	if(time_remaining_seconds=="")
+	{
+		time_remaining_seconds = 0
+	}
+	
+	if((is_int(spread))==false){
+		result.innerHTML = "<h2>\"" + spread + "\" isn't a number. Try again.</h2>";
+		return
+	}
+	
+	if((is_int(time_remaining_minutes))==false){
+		result.innerHTML = "<h2>\"" + time_remaining_minutes + "\" isn't a number. Try again.</h2>";
+		return
+	}
+	
+	if((is_int(time_remaining_seconds))==false){
+		result.innerHTML = "<h2>\"" + time_remaining_seconds + "\" isn't a number. Try again.</h2>";
+		return
+	}
+	
+	time_remaining_minutes = parseInt(time_remaining_minutes, 10)
+	time_remaining_seconds = parseInt(time_remaining_seconds, 10)
+	spread = parseInt(spread, 10)
+	
+	if(possession_yes==true)
+	{
+		possession = 2.5
+	}
+	
+	if(possession_yes==false)
+	{
+		possession = 3.5
+	}
+
+	time_remaining = (time_remaining_minutes*60) + time_remaining_seconds
+	
+	if((spread-possession)>0)
+	{
+		percent_safe_step_one = ((spread-possession)*(spread-possession))
+	}
+	
+	if((spread-possession)<0)
+	{
+		percent_safe_step_one = 0
+	}
+	
+	percent_safe = (percent_safe_step_one/time_remaining)*100
+	percent_safe = percent_safe.toFixed(2)
+
+	
+	
+	if(percent_safe>100)
+	{
+		result.innerHTML = "<h2>Yes! The lead is "+percent_safe+"% safe.</h2>";	
+	}	
+	
+	if(percent_safe<100)
+	{
+		result.innerHTML = "<h2>Nope, the lead isn't 100% safe. It's only "+percent_safe+"% safe.</h2>";	
+	}
+	
+}	
+</script>
+
+<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-29703850-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+<body>
+	<div class="box box_wide">
+	<h2>Would Bill James Think The Lead is Safe?</h2>
+	<form id="calculator" onSubmit="results(); return false">
+		<h3>Does the team that's ahead have the ball?</h3>
+		<input type="radio" name="possession" checked="true" value="Yes" id="possession_yes" > Yes<br>
+		<input type="radio" name="possession" value="No" id="possession_no"> No<br>
+	
+		<h3>How far ahead are they?</h3>
+		<input type="tel" name="spread" id="spread"/> points
+	
+		<h3>How much time is left?</h3>
+		<input type="tel" name="time_remaining_minutes" id="time_remaining_minutes"/> minutes
+		<br />
+		<input type="tel" name="time_remaining_seconds" id="time_remaining_seconds"/> seconds	
+		<br />
+		<input type="submit"/> 
+	</form>
+	<div id="result"></div>
+	<p><a href="http://www.slate.com/articles/sports/sports_nut/2008/03/the_lead_is_safe.single.html">The original Bill James article explaining his formula.</a></p>
+	<p>A <a href="http://www.lilliechilen.com">LillieChilen.com</a> Production</p>
+		
+</div>
+</body>
+</html>
