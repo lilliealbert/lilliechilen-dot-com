@@ -33,6 +33,17 @@
   }
   h2 {
     margin-bottom: 0;
+    a {
+      color: black;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        color: black;
+      }
+      &:visited {
+        color: black;
+      }
+    }
   }
   h4 {
     margin: 0;
@@ -46,4 +57,14 @@
   .inner-container {
     padding-bottom: 20px;
   }
+  .bye-bye {
+  text-align: center;
+  a {
+    color: #FF8F00;
+    text-decoration: underline;
+    &:hover {
+      color: #FF8F00;
+    }
+  }
+}
 }
