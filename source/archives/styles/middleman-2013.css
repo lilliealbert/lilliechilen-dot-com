@@ -1,0 +1,349 @@
+/* line 1, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.project-nav {
+  padding-bottom: 15px; }
+/* line 3, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.project-nav h3 {
+  margin: 0;
+  display: inline; }
+/* line 7, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.project-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+/* line 12, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.project-nav li {
+  display: inline;
+  margin-right: 30px; }
+/* line 16, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.project-nav a {
+  color: black; }
+/* line 18, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.project-nav a:hover {
+  color: #E4A061; }
+
+/* line 24, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects {
+  background-color: #ACEBEB; }
+/* line 26, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects h1 {
+  margin: 0;
+  padding-top: 20px; }
+/* line 30, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects p {
+  margin: 0;
+  padding: 10px 0 5px 0; }
+/* line 34, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects h2 {
+  margin-bottom: 0; }
+/* line 36, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects h2 a {
+  color: black;
+  text-decoration: none; }
+/* line 39, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects h2 a:hover {
+  text-decoration: underline;
+  color: black; }
+/* line 43, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects h2 a:visited {
+  color: black; }
+/* line 48, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects h4 {
+  margin: 0; }
+/* line 51, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects .inner-nav {
+  border-bottom: 1px dashed #616161; }
+/* line 54, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects i {
+  font-size: 25pt; }
+/* line 57, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects .inner-container {
+  padding-bottom: 20px; }
+/* line 60, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects .bye-bye {
+  text-align: center; }
+/* line 62, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects .bye-bye a {
+  color: #FF8F00;
+  text-decoration: underline; }
+/* line 65, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_projects.css.scss */
+.projects .bye-bye a:hover {
+  color: #FF8F00; }
+
+/* line 1, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_home.css.scss */
+.brand {
+  padding-top: 30px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 20px; }
+
+/* line 10, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_home.css.scss */
+.inner-home {
+  padding-top: 40px; }
+
+/* line 14, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_home.css.scss */
+.bio-pic-box {
+  width: 850px;
+  margin: 0 auto; }
+
+/* line 19, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_home.css.scss */
+.short-bio {
+  vertical-align: top;
+  width: 600px;
+  display: inline-block;
+  font-size: 16pt; }
+
+/* line 26, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_home.css.scss */
+.face {
+  margin-right: 20px;
+  display: inline-block; }
+/* line 29, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_home.css.scss */
+.face img {
+  border-radius: 10px; }
+
+/* line 34, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_home.css.scss */
+.internet-places {
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 14pt; }
+/* line 39, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_home.css.scss */
+.internet-places h2 {
+  text-align: center; }
+
+/* line 44, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_home.css.scss */
+.site-places {
+  text-align: center; }
+/* line 46, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_home.css.scss */
+.site-places a {
+  color: #CA782C;
+  text-decoration: none; }
+/* line 49, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_home.css.scss */
+.site-places a:hover {
+  color: #E4A061; }
+
+/* line 1, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #ACEBEB;
+  margin-bottom: 20px; }
+
+/* line 9, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.inner-nav {
+  border-bottom: 1px dashed #616161; }
+
+/* line 13, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  min-height: 100%; }
+
+/* line 19, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.inner-container {
+  width: 800px;
+  margin: 0 auto; }
+
+/*font things*/
+/* line 26, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700; }
+
+/* line 31, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400; }
+
+/* line 36, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; }
+
+/* line 41, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+/* line 47, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.centered-header {
+  text-align: center; }
+
+/* line 52, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.orange-links a {
+  color: #CA782C; }
+/* line 54, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.orange-links a:visited {
+  color: #CA782C; }
+/* line 57, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.orange-links a:hover {
+  color: #E4A061; }
+/* line 60, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.orange-links a i {
+  text-decoration: none;
+  margin: 2px; }
+
+/* line 68, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.black-links a {
+  color: black; }
+/* line 70, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.black-links a:visited {
+  color: black; }
+/* line 73, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.black-links a:hover {
+  color: grey; }
+/* line 76, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.black-links a i {
+  text-decoration: none;
+  margin: 2px; }
+
+/*decoration things*/
+/* line 85, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+i {
+  font-size: 2em;
+  padding: 3px; }
+
+/* line 90, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.icons-box {
+  width: 110px;
+  height: 60px;
+  display: inline-block; }
+
+/* line 96, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.icons-box i {
+  padding: 10px; }
+
+/* line 100, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.orange-icon i {
+  color: #FF8F00; }
+
+/* line 104, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+hr {
+  height: 1px;
+  background-color: #616161;
+  margin: 30px auto;
+  border: 0; }
+
+/* line 111, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+hr.narrow-hr {
+  width: 70%; }
+
+/* line 115, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.big-top-margin {
+  margin-top: 60px; }
+
+/*colors*/
+/* line 121, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.off-white {
+  background-color: #FFFEFC; }
+
+/* line 125, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.teal {
+  background-color: #ACEBEB; }
+
+/* line 129, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.orange {
+  background-color: #FF8F00; }
+
+/* line 133, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.dark-grey {
+  background-color: #616161; }
+
+/* line 137, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.light-grey {
+  background-color: #D5D5D5; }
+
+/* line 141, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_base.css.scss */
+.light-orange {
+  background-color: #FFBB64; }
+
+/* line 1, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_nav.css.scss */
+header {
+  height: 50px;
+  background-color: #ACEBEB; }
+/* line 4, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_nav.css.scss */
+header ul {
+  list-style-type: none;
+  margin: 0; }
+/* line 8, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_nav.css.scss */
+header li {
+  display: inline;
+  margin-left: 50px; }
+/* line 12, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_nav.css.scss */
+header a {
+  color: black;
+  text-decoration: none; }
+/* line 15, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_nav.css.scss */
+header a:hover {
+  color: #E4A061; }
+
+/* line 21, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_nav.css.scss */
+.inner-nav {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 50px;
+  width: 1140px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0 30px; }
+
+/* line 33, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_nav.css.scss */
+.nav-links {
+  float: right; }
+/* line 35, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_nav.css.scss */
+.nav-links a {
+  line-height: 50px; }
+
+/* line 40, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_nav.css.scss */
+.nav-logo {
+  float: left;
+  font-weight: 300;
+  font-size: 1.2em; }
+
+/* line 1, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_resume.css.scss */
+.bye-bye {
+  text-align: center; }
+/* line 3, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_resume.css.scss */
+.bye-bye a {
+  color: #FF8F00;
+  text-decoration: underline; }
+
+/* line 9, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_resume.css.scss */
+.fun p {
+  margin: 15px 0; }
+
+/* line 17, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_resume.css.scss */
+.resume h2 {
+  margin-bottom: 0; }
+/* line 20, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_resume.css.scss */
+.resume h3 {
+  margin: 15px 0 5px 0; }
+/* line 23, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_resume.css.scss */
+.resume h4 {
+  font-style: italic;
+  margin: 5px 0; }
+
+/* line 29, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_resume.css.scss */
+.resume-inner {
+  width: 800px;
+  margin: 0 auto; }
+
+/* line 35, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_resume.css.scss */
+.whichresume h3 {
+  margin: 5px 0 0 0; }
+
+/* line 1, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_bio.css.scss */
+.bubble-for-icon {
+  margin: 0 auto;
+  width: 60px;
+  padding: 20px 0 10px 0; }
+/* line 5, /Users/lillie/static-websites/new_lilliechilen_middleman/source/stylesheets/_bio.css.scss */
+.bubble-for-icon i {
+  font-size: 2em;
+  color: #FFFEFC;
+  background-color: #FF8F00;
+  border-radius: 50%;
+  padding: 15px; }
